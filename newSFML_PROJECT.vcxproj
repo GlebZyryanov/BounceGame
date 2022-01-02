@@ -145,27 +145,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Animation.cpp" />
-    <ClCompile Include="Entity.cpp" />
-    <ClCompile Include="EvilEnemy.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="HealthBar.cpp" />
-    <ClCompile Include="Level.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MovPlatform.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="Strike.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Animation.h" />
-    <ClInclude Include="Entity.h" />
-    <ClInclude Include="EvilEnemy.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="HealthBar.h" />
-    <ClInclude Include="Level.h" />
-    <ClInclude Include="MovPlatform.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Strike.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
